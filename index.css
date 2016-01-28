@@ -1,0 +1,28 @@
+@import "fonts/stylesheet.css";
+
+.bg {
+  background-image: url("bg.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -1
+}
+
+body {
+}
+
+.wrapper {
+  font-family: 'kl1_monosansinvers', sans-serif;
+  color: #fff;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}
+
+.wrapper h1 {
+  font-size: 72px;
+}
